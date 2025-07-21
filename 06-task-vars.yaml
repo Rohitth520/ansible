@@ -8,8 +8,8 @@
   tasks:
   - name: print the variables
     vars: #task level variables, accessable within the task . task variables can override play level variables. Local variables
-     DAY: FRIDAY
-     ansible.builtin.debug:
+      DAY: FRIDAY
+    ansible.builtin.debug:
       msg: "Today is {{ DAY }} , Date is {{ DATE }}, Time is {{ TIME }}"
 
 
