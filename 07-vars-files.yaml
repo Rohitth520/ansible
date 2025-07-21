@@ -1,0 +1,9 @@
+- name: variables from file
+  hosts: local
+  connection: local
+  vars_files:
+  - date.yaml
+  tasks:
+  - name: print the date and time
+    ansible.builtin.debug:
+      msg: Day is {{ DAY }} , Date is {{DATE}} , Time is {{ TIME }} .
