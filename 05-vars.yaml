@@ -1,7 +1,7 @@
 - name: variables
   hosts: local
-  collections: local
+  collection: local
   tasks:
-  - name: print the variables
+  - name: print the variable
     ansible.builtin.debug:
       msg: "Today is Monday , Date is 21july 2025, time is 8:30 am"
