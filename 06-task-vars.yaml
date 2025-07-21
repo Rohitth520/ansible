@@ -13,6 +13,6 @@
       msg: "Today is {{ DAY }} , Date is {{ DATE }}, Time is {{ TIME }}"
 
 
-  - name: print the variables
+  - name: print the variables1
     ansible.builtin.debug:
       msg: "Today is {{ DAY }} , Date is {{ DATE }}, Time is {{ TIME }}"
