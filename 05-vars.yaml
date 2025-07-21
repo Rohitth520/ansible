@@ -1,11 +1,11 @@
 - name: variables
   hosts: local
   connection: local
-  vars:
+  vars: #play level variables
     DAY: MONDAY
     DATE: "21ST JULY"
     TIME: 8:30Am
-  tasks:
+  tasks: 
   - name: print the variable
     ansible.builtin.debug:
       msg: "Today is {{ DAY }} , Date is {{ DATE }}, Time is {{ TIME }}"
