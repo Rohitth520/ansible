@@ -6,4 +6,4 @@
   tasks:
   - name: print the date and time
     ansible.builtin.debug:
-      msg: Day is {{ DAY }} , Date is {{DATE}} , Time is {{ TIME }} .
+      msg: Day is {{ DAY }} , Date is {{DATE}} , Time is {{ TIME }} .                                                               
